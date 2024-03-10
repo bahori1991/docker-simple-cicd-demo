@@ -55,8 +55,9 @@ jobs:
     defaults:
       run:
         working-directory: api
-    pre:
-      - chmod +x ./gradlew
+    dependencies:
+      pre:
+        - chmod +x ./gradlew
     steps:
       - uses: actions/checkout@v3
 
