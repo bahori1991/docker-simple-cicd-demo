@@ -12,11 +12,7 @@ env:
 
 permissions:
   contents: read
-
-dependencies:
-  pre:
-    - chmod +x ./gradlew
-
+  
 jobs:
   web-test-build-image:
     name: Web Container - Test and Build
